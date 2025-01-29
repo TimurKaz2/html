@@ -1,0 +1,73 @@
+/*
+1200
+992-1199
+768-991
+576-768
+460-576
+414-460
+375-414
+320-375
+*/
+
+@media screen and  (max-width:1199px){
+    .boxes{
+        justify-content: space-around;
+        
+    }
+    .new .boxes{
+        flex-wrap: wrap;
+        max-width: 775px;
+        margin: 0px auto;
+    }
+    .new .boxes .box{
+        margin-bottom: 20px;
+    }
+    .new h2, .adv h2 {
+        margin: 25px ;
+    }
+
+    .block1 .items .pagination {
+        padding-bottom: 0px;
+    }
+    .adv > div {
+        display: block;
+    }
+    .adv div p {
+        max-width: none;
+        margin-bottom: 10px;
+    }
+ }
+
+@media screen and  (max-width:991px){ }
+
+@media screen and  (max-width:768px){ 
+    .adv > div div{
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+    .block1{
+        display: block;
+        text-align: center;
+    }
+    .block1 .menu{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and  (max-width:576px){ 
+    .adv > div div{
+        display: block;
+    }
+}
+
+@media screen and  (max-width:460px){ }
+
+@media screen and  (max-width:414px){
+    .adv div p {
+        width: 90%;
+    }
+ }
+
+@media screen and  (max-width:375px){ }

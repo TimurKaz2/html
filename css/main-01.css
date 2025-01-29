@@ -1,0 +1,207 @@
+
+.block1{
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.block1 .menu{
+    width: 200px;
+}
+
+.block1 .menu a {
+    display: block;
+    text-decoration: none;
+    color: #7b7b7b;
+    font-size: 1.125em;
+    padding: 12px 25px;
+    margin-bottom: 8px;
+
+}
+
+.block1 .menu a:hover, .block1 .menu a.active{
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #ebb217;
+    border-radius: 20px;
+    
+}
+
+.block1 .items{
+    padding-left: 25px;
+    
+}
+
+.block1 .items .sort {
+    margin-bottom: 25px;
+}
+
+.block1 .items .sort p{
+    color: #444444;
+    font-size:1em;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+
+.block1 .items .sort p a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    width: 65px;
+    background: url("../imges/up.png") no-repeat;
+    background-position: 100% 50%;
+    background-size: 10px;
+}
+
+.block1 .items .sort p a:hover,
+.block1 .items .sort p a.active{
+    background: url("../imges/down.png") no-repeat;
+    background-size: 10px;
+    background-position: 100% 50%;
+    color: #ebb217;
+    font-weight: 600;
+    
+}
+
+.boxes{
+    flex-wrap: wrap;
+
+}
+
+.boxes .box {
+    margin: 10px;
+    background-color: #f3f3f3;
+    border: 15px #f3f3f3 solid;
+    border-radius: 20px;
+
+}
+
+.box figure figcaption{
+    
+    color: #000000;
+
+
+}
+.box figure img{
+    height: 350px;
+    border-radius: 20px;
+}
+
+.box figure figcaption p span{
+
+    font-size: 1.250em;
+    font-weight: 600;
+}
+.box figure figcaption p{
+    font-size: 0.938em;
+}
+
+.box figure .title{
+    color: #4b4b4e;
+    font-size: 1.125em;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.box button{
+    width: 100%;
+    padding: 12px 0px;
+    border-radius: 20px;
+    background-color: #dfa52b;
+    color: #FFFFFF;
+    margin-top: 15px;
+    border: none;
+
+}
+.block1 .items .pagination{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.block1 .items .pagination img{
+height: 11px;
+}
+
+.box button:hover{
+    cursor: pointer;}
+
+.block1 .items .pagination a{
+    margin: 0px 5px;
+    color: #686868;
+    text-decoration: none;
+}
+.block1 .items .pagination a:hover,
+.block1 .items .pagination a.active{
+    color: #ebb217;
+    font-weight: 900;
+
+}
+
+.new h2, .adv h2 {
+    text-align: center;
+    margin: 70px 0px;
+    color: #4b4b4e;
+    font-size: 1.875em;
+    font-weight: 600;
+}
+.adv div p{
+    font-size: 1.125em ;
+    color: #838383;
+    font-weight: 300;
+    max-width: 345px;
+}
+.adv div p span {
+    font-weight: bold;
+}
+
+.adv div figure{
+    margin: 0px 50px 20px 0px;
+    text-align: center;
+}
+
+.adv div figure img{
+    height: 100px;
+}
+
+.adv div figure figcaption{
+    color: #a9a9ad;
+    font-size:0.875em;
+    font-weight: 300;
+
+}
+
+figcaption div.prise div{
+    display:inline-block;
+}
+
+.counter-wrapper div{
+    display:inline-block;
+    margin: 0px 0px;
+    background-color: #e2e2e2;
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+    
+}
+.counter-wrapper div:hover{
+
+    background-color: #ebb217;
+    cursor: pointer;
+}
+
+
+
+
+.box figure figcaption div.price > div{
+    display:inline-block;
+    margin: 0px 5px 5px;
+    
+
+}
+.T-Center{
+    text-align: center;
+}
+
+.price__currency{
+    font-size: 1.125em;
+}

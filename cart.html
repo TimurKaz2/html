@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header_footer.css">
+    <link rel="stylesheet" href="css/responsive/header_footer.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/responsive/main.css">
+    
+</head>
+<body>
+    <header class="container-floid">
+        <div class="container d-flex"> 
+            <img src="imges/logo.jpg" alt="Logo" class="logo"/>
+            <img src="imges/MENU.png"  class="burger" alt="menu" data-action="burger" id="burger-click"/>
+            <nav class="menu"  id="bugrer-menu">
+                <a href="index.html" class="active">Каталог</a>
+                <a href="#">О нас</a>
+                <a href="#">Оплата и доставка</a>
+                <a href="#">Контакты</a>
+            </nav>
+            <form action="#" name="search" method="get">
+                <div class="d-flex">
+                    <input type="text" name="search" placeholder="Поиск по каталогу"/>
+                    <input type="submit" name="search" value=""/>
+                </div>
+            </form>
+            <div class="cart d-flex">
+                <img src="imges/cart.png" alt="cart" id="cart">
+                <div>
+                    <p>1000руб</p>
+                    <a href="">Оформить заказ</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="container-main flex">
+            <div class="boxes" id="products-container"> 
+
+            </div> 
+            <div>
+            <div class="RGT">
+
+                
+            </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container-floid">
+        <div class="container d-flex">
+            <div class="left d-flex"> 
+                <figure> 
+                    <img src="imges/logo.jpg" alt="logo" class="logo">
+                    <figcaption>Интернет магазин арома свечей</figcaption>
+                </figure>
+                <nav class="menu">
+                    <a href="#" class="active">Каталог</a>
+                    <a href="#">О нас</a>
+                    <a href="#">Оплата и доставка</a>
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Контакты</a>
+                </nav>
+            </div>
+            <div class="right"> 
+                <form action="#" name="searh" method="get">
+                    <div class="d-flex">
+                        <input type="text" name="search" placeholder="Поиск по каталогу">
+                        <input type="submit" name="search" value="">
+                    </div>
+                </form>
+                <div class="Media">
+                    <p>Наши соц сети:</p>
+                    <div > 
+                        <a href="#" class="box insta"></a>
+                        <a href="#" class="box TG"></a>
+                        <a href="#" class="box VK"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container copyrights">
+            <p>Все права защищены &copy; 2024</p>
+        </div>
+    </footer>
+
+    <script src="./js/renderProdAd.Js"></script>
+    <script src="js/counter-02.js"></script>
+
+</body>
+</html>

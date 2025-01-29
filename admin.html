@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <div class="container d-flex">
+        <div class="boxes" id="products-container"> 
+
+        </div> 
+        <div>
+        <div class="RGT">
+            <div class="creat">
+                <P>Создать новый товар</P>
+                <form action="#" method="get">
+                    <input type="text" id="Creat_Name" placeholder="Название">
+                    <input type="text" id="Creat_ID" placeholder="Id">
+                    <input type="text" id="Creat_GR" placeholder="Вес">
+                    <input type="text" id="Creat_Prise" placeholder="Цена">
+                    <input type="text" id="Creat_F" placeholder="Фото">
+                    <button type="submit" data-action="creat">Создать</button>
+                </form>
+            </div>
+            <div class="edit">
+                <P>Редактировать товар</P>
+                <input type="text" name="Edit_Name" placeholder="Название">
+                <input type="text" name="Edit_ID" placeholder="Id">
+                <input type="text" name="Edit_GR" placeholder="Вес">
+                <input type="text" name="Edit_Prise" placeholder="Цена">
+                <input type="text" name="Edit_F" placeholder="Фото">
+                <button type="submit">Изменить</button>
+            </div>
+            
+        </div>
+        </div>
+    </div>
+    <script src="./js/renderProdAd.Js"></script>
+    <script src="./js/Creat.js"></script>
+    
+</body>
+</html>

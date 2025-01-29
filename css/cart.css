@@ -1,0 +1,108 @@
+
+
+.main .container-main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.main .flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main .box {
+    display: flex;
+    height: 250px;
+    border: 2px solid;
+    border-radius: 20px;
+    width: 350px;
+    margin: 20px 10px;
+
+}
+.main .box img{
+    height: auto;
+    border-radius: 20px;
+    margin: 5px;
+    height: 90%;
+    width: 90%;
+}
+
+.main .box > div{
+    text-align: center;
+    width: 100%;
+    font-size: 1.12em;
+
+}
+
+.box .info > div{
+    height: 100%;
+}
+.box .info > div >div,.box .info > div >p{
+    margin: 10px;
+}
+
+
+.main div.RGT{
+    position: sticky;
+    top: 0;
+
+}
+.main .container-main div.creat,.container-main div.edit{
+    height: 300px;
+    width: 300px;
+    border: solid;
+    border-radius: 25px;
+    text-align: center;
+    margin: 20px;
+
+}
+.main .container-main div.RGT input{
+margin-bottom: 10px;
+
+}
+
+.main .container-main div.RGT button {
+    display: block;
+    margin: 15px auto;
+    font-size: 1.125em;
+    border-radius: 20px;
+
+}
+.main .container-main div.RGT button:hover {
+cursor: pointer;
+
+}
+
+
+.counter-wrapper div{
+    display:inline-block;
+    margin: 0px 0px;
+    background-color: #e2e2e2;
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+    
+}
+.counter-wrapper div:hover{
+
+    background-color: #ebb217;
+    cursor: pointer;
+}
+
+
+
+
+.box figure figcaption div.price > div{
+    display:inline-block;
+    margin: 0px 5px 5px;
+    
+
+}
+.T-Center{
+    text-align: center;
+}
+
+.price__currency{
+    font-size: 1.125em;
+}

@@ -1,0 +1,67 @@
+[
+	{
+		"id": 1,
+		"title": "Свеча в стакане",
+		"weight": 250,
+		"price": 750,
+		"imgSrc": "F1.jpg"
+	},
+	{
+		"id": 2,
+		"title": "Свеча в стакане",
+		"weight": 180,
+		"price": 1200,
+		"imgSrc": "F2.jpg"
+	},
+	{
+		"id": 3,
+		"title": "Свеча в стакане",
+		"weight": 180,
+		"price": 1500,
+		"imgSrc": "F1.jpg"
+	},
+	{
+		"id": 4,
+		"title": "Свеча в стакане",
+		"weight": 180,
+		"price": 1500,
+		"imgSrc": "F1.jpg"
+	},
+	{
+		"id": 5,
+		"title": "Свеча в стакане",
+		"weight": 180,
+		"price": 1500,
+		"imgSrc": "F1.jpg"
+	},
+	{
+		"id": 6,
+		"title": "Свеча в стакане",
+		"weight": 180,
+		"price": 1500,
+		"imgSrc": "F1.jpg"
+	},
+	{
+		"id": 7,
+		"title": "Свеча в стакане",
+		"weight": 180,
+		"price": 1500,
+		"imgSrc": "F1.jpg"
+	},
+	{
+		"id": 8,
+		"title": "Свеча в стакане",
+		"weight": 180,
+		"price": 1500,
+		"imgSrc": "F1.jpg"
+	},
+	{
+		"id": 9,
+		"title": "Свеча в стакане",
+		"weight": 180,
+		"price": 1500,
+		"imgSrc": "F1.jpg"
+	}
+	
+
+]

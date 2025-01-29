@@ -1,0 +1,248 @@
+@keyframes Logo_anima {
+    0% {
+        width: 50px;
+  
+    }
+    100% {
+        width: 150px;
+       
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;    
+}
+.logo img {
+    animation-name: Logo_anima;
+    animation-duration: 5s;
+}
+
+.logo{
+    border: 5px;
+    border-radius: 100%;
+}
+
+body{
+    width: 100%;
+    font-size: 16px;
+}
+
+.container-floid{
+    width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > .container {
+    padding: 40px 20px;
+}
+
+header .container .menu a{
+
+    font-size: 0.875em;
+    text-decoration: none;
+    color: #4b4b4e;
+    margin: 0 20px;
+
+}
+
+header .container .menu a:hover, 
+header .container .menu a.active
+{
+    color: #dfa52b ;
+    font-weight: bold;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #dfa52b;
+    transition: 0.3s all ease;
+}
+header form div {
+    justify-content: center ;
+    padding: 10px 20px;
+    border: 1px solid #ebb217;
+    border-radius: 50px;
+    width: 320px;
+}
+
+header form div input[type='text'] {
+    border: none;
+    margin-right: 10px;
+    width: 90%;
+}
+
+
+header form div input[type='submit'] {
+    width: 15px;
+    height: 15px;
+    background: url("../imges/search.png") no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+header .cart img {
+    margin-right: 7px;
+    width: 17px;
+    height: 17px;
+}
+
+header form div input[type='submit'] :hover {
+    cursor: pointer;
+}
+
+header .cart {
+    align-items: flex-start;
+}
+header .cart div p {
+    font-size: 0.938em;
+    color: #4b4b4e;
+}
+header .cart div a {
+    font-size: 0.750em;
+    color: #ebb217;
+}
+header .burger {
+    width: 40px;
+    display: none;
+}
+
+footer{
+    background-color: #4b4b4e;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer .left {
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+footer .left figure figcaption{
+    color: #f3f3f3 ;
+    font-size: 0.875em;
+    margin-top: 25px;
+    width: 138px;
+
+}
+footer .left nav a{
+    display: block;
+    font-size: 0.875em;
+    color: #ffffff ;
+    margin-bottom: 20px;
+    text-decoration: none;
+
+}
+
+footer .left nav{
+    margin-left: 100px;
+}
+
+footer .left nav a:hover , 
+footer .left nav a.active{
+
+    color: #dfa52b ;
+    transition: 0.5s all ease;
+  
+}
+
+footer .container{
+    align-items: flex-start;
+}
+
+
+footer .right form div {
+    justify-content: left;
+    width: 458px;
+    border-bottom: 1px solid #ffffff;
+}
+
+footer .right form input[type='text'] {
+    padding: 8px 0px;
+    width: 100%;
+    background: none;
+    border: none;
+}
+
+footer .right form input[type='submit'] {
+    width: 35px;
+    height: 35px;
+    background: url("../imges/search2.png") no-repeat;
+    background-size: cover;
+    border: none;
+}
+footer .right > div {
+    text-align: center;
+    font-size: 0.875em;
+    color: #ffffff;
+    margin-top: 33px;
+    margin-bottom: 15px;
+
+}
+
+footer .right .box{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 16px 16px 0;
+    
+}
+
+footer .right .insta{
+    background: url("../imges/instagram.png") no-repeat ;
+    background-size: cover;
+
+}
+
+footer .right .insta:hover{
+ 
+    background-color: #ebb217;
+    border: 1px solid #ebb217;
+    border-radius: 15px;
+    
+}footer .right .TG{
+    background: url("../imges/tg.png") no-repeat ;
+    background-size: cover;
+
+}
+
+footer .right .TG:hover{
+    
+    background-color: #ebb217;
+    border: 1px solid #ebb217;
+    border-radius: 15px;
+    
+}footer .right .VK{
+    background: url("../imges/vk.png") no-repeat ;
+    background-size: cover;
+
+}
+
+footer .right .VK:hover{
+    
+    background-color: #ebb217;
+    border: 1px solid #ebb217;
+    border-radius: 15px;
+    
+}
+footer .copyrights {
+    text-align: center;
+    color: #f3f3f3;
+    font-size: 0.750em;
+    margin-top: 60px;
+}
+
+footer .right .media{
+    width: 100%;
+}

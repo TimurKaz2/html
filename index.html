@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header_footer.css">
+    <link rel="stylesheet" href="css/responsive/header_footer.css">
+    <link rel="stylesheet" href="css/main-01.css">
+    <link rel="stylesheet" href="css/responsive/main.css">
+    
+</head>
+<body>
+    <header class="container-floid">
+        <div class="container d-flex"> 
+            <img src="imges/logo.jpg" alt="Logo" class="logo"/>
+            <img src="imges/MENU.png"  class="burger" alt="menu" data-action="burger" id="burger-click"/>
+            <nav class="menu"  id="bugrer-menu">
+                <a href="#" class="active">Каталог</a>
+                <a href="#">О нас</a>
+                <a href="#">Оплата и доставка</a>
+                <a href="#">Контакты</a>
+            </nav>
+            <form action="#" name="search" method="get">
+                <div class="d-flex">
+                    <input type="text" name="search" placeholder="Поиск по каталогу"/>
+                    <input type="submit" name="search" value=""/>
+                </div>
+            </form>
+            <div class="cart d-flex">
+                <img src="imges/cart.png" alt="cart" id="cart">
+                <div>
+                    <p>1000руб</p>
+                    <a href="cart.html">Оформить заказ</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container-floid">
+        <div class="container">
+            <div class="block1 d-flex">
+                <nav class="menu">
+                    
+                        <a href="#" class="active">Все</a>
+                        <a href="#">Свечи</a>
+                        <a href="#">Саше</a>
+                        <a href="#">Гипс</a>
+                    
+                </nav>
+                <div class="items">
+                    <div class="sort ">
+                        <p>Сортировать по <a  class="active" href="#">Цена</a></p>
+                    </div>
+                    <div class="boxes d-flex" id="products-container">
+
+
+
+                        
+
+
+
+
+                    </div>
+                    <div class="pagination">
+                        <img src="imges/first.png" alt="first">
+                        <img src="imges/prew.png" alt="last">
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#" class="active">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <img src="imges/next.png" alt="next">
+                        <img src="imges/last.png" alt="last">
+
+                    </div>
+                    <div class="new">
+                        <h2>Новинки</h2>
+                        <div class="boxes d-flex">
+                            <div class="box">
+                                <figure>
+                                    <img src="imges/F1.jpg" alt="F1">
+                                    <figcaption>
+                                        <p><span class="Prise">1000</span> Руб.</p>
+                                    </figcaption>
+                                    <p class="title">Свеча</p>
+                                    <button>В корзину</button>
+                                </figure>
+                            </div>
+                            <div class="box">
+                                <figure>
+                                    <img src="imges/F1.jpg" alt="F1">
+                                    <figcaption>
+                                        <p><span class="Prise">1000</span> Руб.</p>
+                                    </figcaption>
+                                    <p class="title">Свеча</p>
+                                    <button>В корзину</button>
+                                </figure>
+                            </div>
+                            <div class="box">
+                                <figure>
+                                    <img src="imges/F1.jpg" alt="F1">
+                                    <figcaption>
+                                        <p><span class="Prise">1000</span> Руб.</p>
+                                    </figcaption>
+                                    <p class="title">Свеча</p>
+                                    <button>В корзину</button>
+                                </figure>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="adv">
+                        <h2>Наши преимущества</h2>
+                        <div class="d-flex">
+                            <div><p>Интернет магазин <span>Mio Candes</span> заботится о качестве. Покупая у нас вы получаете товары ручной работы по самым лучшим ценам.</p></div>
+                            <div class="d-flex">
+                                <figure>
+                                    <img src="imges/adv1.png" alt="Цена"/>
+                                    <figcaption>Лучшие Цены</figcaption>                                    
+                                </figure>
+                                <figure>
+                                    <img src="imges/adv2.png" alt="Цена"/>
+                                    <figcaption>Быстрая отправка</figcaption>                                    
+                                </figure>
+                                <figure>
+                                    <img src="imges/adv3.png" alt="Цена"/>
+                                    <figcaption>Ручная работа</figcaption>                             
+                                </figure>
+                                <figure>
+                                    <img src="imges/adv4.png" alt="Цена"/>
+                                    <figcaption>Натуральные материалы</figcaption>                            
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-floid">
+        <div class="container d-flex">
+            <div class="left d-flex"> 
+                <figure> 
+                    <img src="imges/logo.jpg" alt="logo" class="logo">
+                    <figcaption>Интернет магазин арома свечей</figcaption>
+                </figure>
+                <nav class="menu">
+                    <a href="#" class="active">Каталог</a>
+                    <a href="#">О нас</a>
+                    <a href="#">Оплата и доставка</a>
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Контакты</a>
+                </nav>
+            </div>
+            <div class="right"> 
+                <form action="#" name="searh" method="get">
+                    <div class="d-flex">
+                        <input type="text" name="search" placeholder="Поиск по каталогу">
+                        <input type="submit" name="search" value="">
+                    </div>
+                </form>
+                <div class="Media">
+                    <p>Наши соц сети:</p>
+                    <div > 
+                        <a href="#" class="box insta"></a>
+                        <a href="#" class="box TG"></a>
+                        <a href="#" class="box VK"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container copyrights">
+            <p>Все права защищены &copy; 2024</p>
+        </div>
+    </footer>
+
+    <script src="./js/renderProducts.js"></script>
+    <script src="js/counter-02.js"></script>
+
+</body>
+</html>

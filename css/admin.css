@@ -1,0 +1,78 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box {
+    display: flex;
+    height: 250px;
+    border: 2px solid;
+    border-radius: 20px;
+    width: 350px;
+    margin: 20px 10px;
+
+}
+.box img{
+    height: auto;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.box > div{
+    text-align: center;
+    width: 100%;
+    font-size: 1.12em;
+
+}
+
+.box button {
+    margin: 10px ;
+    border-radius: 20px;
+    padding: 10px;
+}
+.box button:hover {
+cursor: pointer;
+}
+
+
+
+div.RGT{
+    position: sticky;
+    top: 0;
+
+}
+.container div.creat,.container div.edit{
+    height: 300px;
+    width: 300px;
+    border: solid;
+    border-radius: 25px;
+    text-align: center;
+    margin: 20px;
+
+}
+.container div.RGT input{
+margin-bottom: 10px;
+
+}
+
+.container div.RGT button {
+    display: block;
+    margin: 15px auto;
+    font-size: 1.125em;
+    border-radius: 20px;
+
+}
+.container div.RGT button:hover {
+cursor: pointer;
+
+}
